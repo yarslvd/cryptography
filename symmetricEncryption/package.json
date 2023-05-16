@@ -1,0 +1,14 @@
+{
+  "name": "symmetricencryption",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pbox.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
