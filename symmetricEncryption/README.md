@@ -33,6 +33,8 @@ npm test -- test/sbox.test.js
 
 ## Приклади результату виконання програми
 1. Результат виконання тесту:
+##
 ![Test result example](https://i.imgur.com/hNeng5B.png)
 2. Результат виконання програми з довільними значеннями:
+##
 ![Data result example](https://i.imgur.com/Ao5hOzU.png)
