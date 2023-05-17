@@ -18,32 +18,40 @@ function handleError(input) {
 }
 
 function pboxEncrypt(input) {
+    //handling incorrect input
     handleError(input);
 
+    //creating an empty array with 8 elements and filling it with 0
     let resArr = Array(8).fill(0);
 
+    //fill array with elements according to table
     for(let i = 0; i < resArr.length; i++) {
         const out = table.findIndex(el => el === i + 1);
         resArr[i] = input[out];
     }
 
+    //return encrypted value
     return resArr.join('');
 }
 
 function pboxDecrypt(input) {
+    //handling incorrect input
     handleError(input);
 
+    //creating an empty array with 8 elements and filling it with 0
     let resArr = Array(8).fill(0);
 
+    //fill array with elements according to table
     for(let i = 0; i < resArr.length; i++) {
         resArr[i] = input[table[i] - 1];
     }
 
+    //return decrypted value
     return resArr.join('');
 }
 
 // console.log(pboxEncrypt('10110100')); //01100101
-// console.log(pboxDecrypt('01100101')); //10110100
+console.log(pboxDecrypt('01100101')); //10110100
 
 module.exports = {
     pboxDecrypt,

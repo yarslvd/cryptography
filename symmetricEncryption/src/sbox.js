@@ -51,8 +51,6 @@ function constructInverseTable(table) {
     return inverseTable;
 }
 
-//////////////////////////////////////////////////////////
-
 function sboxEncrypt(input) {
     //handling incorrect input
     handleError(input);
