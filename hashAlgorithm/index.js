@@ -212,15 +212,11 @@ const handleStringInput = () => {
     //converting bits to bytes array
     const bytesArray = stringToBytes(sequence);
 
-    console.time('My implementation');
     const res = sha1(bytesArray);
-    console.timeEnd('My implementation');
-    // console.log(res);
-
-    console.time('Library');
+    console.log(res);
+    
     const objHash = hash(stringToBytes(sequence), { algorithm: 'sha1', encoding: 'buffer' });
-    console.timeEnd('Library');
-    // console.log(objHash);
+    console.log(objHash);
 }
 
 handleStringInput();
