@@ -1,0 +1,18 @@
+{
+  "name": "elgamal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bigint-crypto-utils": "^3.2.2",
+    "bigint-isqrt": "^0.3.2",
+    "crypto": "^1.0.1",
+    "jsbn": "^1.1.0"
+  },
+  "type": "module"
+}
