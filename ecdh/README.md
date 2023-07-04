@@ -17,7 +17,7 @@ ECDH (Elliptic Curve Diffie-Hellman) є протоколом обміну клю
 ```bash
 git clone https://github.com/yarslvd/cryptography.git
 ```
-2. Перейдіть до папки ellipticCurve `cd ecdh`
+2. Перейдіть до папки ecdh `cd ecdh`
 
 ## Запуск
 
